@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render as Button 1`] = `
+.c0 {
+  font-size: 11px;
+  display: inline-block;
+  border-radius: 6px;
+  padding: 0 10px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  line-height: 2;
+  -webkit-transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
+  background-color: hsl(0,0%,90%);
+}
+
+.c0[href^='http'] {
+  background-color: hsl(0,50%,90%);
+}
+
+.c0[href^='http']:hover {
+  background: hsl(0,50%,75%);
+}
+
+<a
+  className="c0"
+  href="http://google.com"
+  target="_blank"
+>
+  Google
+</a>
+`;
+
+exports[`Render as Button without url 1`] = `
+.c0 {
+  font-size: 11px;
+  display: inline-block;
+  border-radius: 6px;
+  padding: 0 10px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  line-height: 2;
+  -webkit-transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
+  background-color: hsl(0,0%,90%);
+}
+
+.c0[href^='http'] {
+  background-color: hsl(0,50%,90%);
+}
+
+.c0[href^='http']:hover {
+  background: hsl(0,50%,75%);
+}
+
+<span
+  className="c0"
+>
+  Google
+</span>
+`;
+
+exports[`Render as Text 1`] = `
+.c0 {
+  font-size: 11px;
+  color: hsl(0,0%,50%);
+}
+
+.c0:not(:last-child)::after {
+  content: ', ';
+}
+
+.c0[href^='http'] {
+  color: hsl(0,0%,40%);
+}
+
+.c0[href^='http']:hover {
+  color: hsl(0,97%,61%);
+}
+
+<a
+  className="c0"
+  href="http://google.com"
+  target="_blank"
+>
+  Google
+</a>
+`;
+
+exports[`Render as Text without url 1`] = `
+.c0 {
+  font-size: 11px;
+  color: hsl(0,0%,50%);
+}
+
+.c0:not(:last-child)::after {
+  content: ', ';
+}
+
+.c0[href^='http'] {
+  color: hsl(0,0%,40%);
+}
+
+.c0[href^='http']:hover {
+  color: hsl(0,97%,61%);
+}
+
+<span
+  className="c0"
+>
+  Google
+</span>
+`;
